@@ -1,0 +1,35 @@
+<section id="$idprefix$title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$>
+  
+<div class="tl" style="width:70%;">
+  <h1 class="title">$title$</h1>
+$if(subtitle)$
+  <h2 class="subtitle">$subtitle$</h2>
+$endif$
+$for(author)$
+  <h3 class="author">$author$</h3>
+$endfor$
+$for(institute)$
+  <p class="institute">$institute$</p>
+$endfor$
+
+
+
+<br>
+
+
+<ul class="fa-ul">
+$if(email)$
+<li><span class="fa-li"><i class="fas fa-envelope"></i></span> $email$</li>
+$endif$
+$if(date)$
+<li><span class="fa-li"><i class="fas fa-calendar-alt"></i></span> $date$</li>
+$endif$
+$if(url)$
+<li><span class="fa-li"><i class="fa-solid fa-globe"></i></span><a href=$url$> $url$</a></li>
+$endif$
+</ul>
+
+<br>
+</div>
+
+</section>
