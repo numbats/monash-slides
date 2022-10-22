@@ -1,8 +1,7 @@
 ---
 title: "Document templates for Monash University"
 format:
-  #monash-revealjs: default
-  monash-memo: default
+  monash-revealjs: default
 author: Presented by Emi Tanaka
 email: emi.tanaka@monash.edu
 url: emitanaka.org
